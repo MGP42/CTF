@@ -46,19 +46,25 @@ p,q=crack(x,n)
 ```
 This is completely stupid as it can just be solved with math:
 Rearrange:
-$$
+
+$`
 \begin{aligned}
 n=p\cdot q&~~~~~~~~&x=p+q\\
 p=\frac{n}{q}&&p=x-q\\
-\end{aligned} $$
+\end{aligned} 
+`$
+
 Substitue:
-$$
+
+$`
 \begin{aligned}
 \frac{n}{q}=x-q
 \end{aligned}
-$$
+`$
+
 Solve:
-$$
+
+$`
 \begin{aligned}
 \frac{n}{q}&=x-q\\
 n&=(x-q)\cdot q\\
@@ -69,7 +75,8 @@ n&=(x-q)\cdot q\\
 \pm\sqrt{-n+\frac{x^2}{4}}&=q-\frac{x}{2}\\
 \pm\sqrt{-n+\frac{x^2}{4}}+\frac{x}{2}&=q
 \end{aligned}
-$$
+`$
+
 <details><summary>MONKA</summary>
 It just came to my attention that while writing that down that i did not consider the option for $q_1$ and $q_2$ which didn't matter as the option that i do not take is equal to p.
   
