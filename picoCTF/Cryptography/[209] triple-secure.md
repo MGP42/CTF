@@ -41,7 +41,7 @@ p&=\frac{n_1}{q}&&&p&=\frac{n_2}{r}&&&q&=\frac{n_3}{r}
 \end{aligned}
 `$
 
-Next i took the $ n_1=p\cdot q $ and subsituted the according values:
+Next i took the $` n_1=p\cdot q `$ and subsituted the according values:
 
 $`
 \begin{aligned}
