@@ -33,14 +33,17 @@ n3 = q * r
 Wait a second 3 unknown variables and 3 expressions... This is solvable with plain old math:
 
 First i rearanged the formulas, so we single out an unknown variable for each expression:
-$$ 
+
+$` 
 \begin{aligned}
 n_1&=p\cdot q &~~~~&& n_2&=p\cdot r &~~~~&& n_3&=q\cdot r\\
 p&=\frac{n_1}{q}&&&p&=\frac{n_2}{r}&&&q&=\frac{n_3}{r}
 \end{aligned}
-$$
+`$
+
 Next i took the $ n_1=p\cdot q $ and subsituted the according values:
-$$
+
+$`
 \begin{aligned}
 n_1&=p\cdot q\\
 &=\frac{n_2}{r}\cdot\frac{n_3}{r}\\
@@ -49,7 +52,8 @@ n_1\cdot r^2&=n_2n_3\\
 r^2&=\frac{n_2n_3}{n_1}\\
 r&=\sqrt{\frac{n_2n_3}{n_1}}
 \end{aligned}
-$$
+`$
+
 With r in hand i could calculate p and q by using the formulas above again.
 
 With all the prime numbers that i need at hand i could start solving the problem using python<br>
