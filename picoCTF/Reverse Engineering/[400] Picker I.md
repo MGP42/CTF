@@ -42,6 +42,7 @@ print(4)  # Chosen by fair die roll.
           # (See XKCD)
 ~~~
 ![](https://imgs.xkcd.com/comics/random_number.png)
+
 Well i guess that explain that.
 
 ~~~python
