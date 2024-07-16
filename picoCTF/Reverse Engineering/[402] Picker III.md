@@ -162,6 +162,7 @@ OK it's not that simple. The only time times this messange can appear is here:
 ~~~ python
 if( not check_table() ):
   print(CORRUPT_MESSAGE)
+~~~
 ~~~python
 def check_table():
   global func_table
