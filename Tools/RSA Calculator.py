@@ -11,7 +11,7 @@ style = {
 
 # Create the main window
 root = tk.Tk()
-root.title("Simple GUI")
+root.title("RSA Calculator")
 root.configure(bg=style["bg"])
 
 frame=tk.Frame(root, bg=style["bg"])
