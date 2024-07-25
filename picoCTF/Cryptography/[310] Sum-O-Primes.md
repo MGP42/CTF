@@ -2,8 +2,8 @@
 We have so much faith in RSA we give you not just the product of the primes, but their sum as well!
 
 # Provided
-- [gen.py](310-gen.py)
-- [output.txt](310-output.txt)
+- [gen.py](.prov/310-gen.py)
+- [output.txt](.prov/310-output.txt)
 
 # Ressources
 - [RSA](https://en.wikipedia.org/wiki/RSA_(cryptosystem))
