@@ -1,4 +1,4 @@
-# Cryptographie
+# Cryptography
 ## General
 - [CyberChef](https://gchq.github.io/CyberChef/)
 - [Morse Code Audio Decoder](https://databorder.com/transfer/morse-sound-receiver/)

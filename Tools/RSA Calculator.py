@@ -37,7 +37,7 @@ def log(text):
 # Creates input fields
 def create_input(label, row):
     # entry = tk.Entry(frame,background='black', foreground='white', width=50, **style)
-    entry = tk.Entry(frame, width=50, **style)
+    entry = tk.Entry(frame, width=50, **style, insertbackground="white")
     entry.grid(row=row, column=1)
     tk.Label(frame, **style, text=label+" =").grid(row=row, column=0)
     tk.Button(frame, **style, text="Clear", command=lambda: entry.delete(0, tk.END)).grid(row=row,column=2)
