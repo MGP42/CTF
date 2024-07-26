@@ -23,6 +23,11 @@ buttons.pack()
 log_console = tk.Text(root, height=3, width=50, bg="black", fg="white", wrap=tk.WORD, state=tk.DISABLED    )
 log_console.pack(expand=True, fill=tk.BOTH, padx=10, pady=10)
 
+def select_all(event=None):
+    event.widget.select_range(0, tk.END)  # Select all text in the Entry widget
+    event.widget.icursor(tk.END)  # Move cursor to the end
+root.bind('<Control-a>', select_all)
+
 # Log to the console
 def log(text):
     log_console.config(state=tk.NORMAL)
@@ -36,6 +41,7 @@ def create_input(label, row):
     entry.grid(row=row, column=1)
     tk.Label(frame, **style, text=label+" =").grid(row=row, column=0)
     tk.Button(frame, **style, text="Clear", command=lambda: entry.delete(0, tk.END)).grid(row=row,column=2)
+    tk.Button(frame, **style, text="hex", command=lambda: (lambda v: (entry.delete(0, tk.END), entry.insert(0, int(v, 16))))(entry.get())).grid(row=row, column=3)
     return entry
 
 
