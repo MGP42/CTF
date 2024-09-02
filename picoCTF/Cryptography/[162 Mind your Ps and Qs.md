@@ -27,7 +27,7 @@ I could calculate that myself now, but I'm feeling lazy, so I will use a [Deciph
 Error 0? Fine.... I do it myself -_-
 
 For some reason, I decided to do it properly and went completely overkill for the task at hand.
-Long story short, there is no an entire [python GUI](../../Tools/RSA%20Calculator.py). If I get bored enough I might even make it so values can be fed directly from console...
+Long story short, there is now an entire [python GUI](../../Tools/RSA%20Calculator.py). If I get bored enough I might even make it so values can be fed directly from console...
 
 Anyway, I threw my values in the Tool and got the flag:
 ```
