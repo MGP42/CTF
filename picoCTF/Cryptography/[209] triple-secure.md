@@ -2,8 +2,8 @@
 To get the flag, you must break RSA not once, but three times!
 
 # Provided
-- [public-key.txt](209-public-key.txt)
-- [encrypt.txt](209-encrypt.txt)
+- [public-key.txt](.prov/209-public-key.txt)
+- [encrypt.txt](.prov/209-encrypt.txt)
 
 # Ressources
 - [RSA](https://en.wikipedia.org/wiki/RSA_(cryptosystem))
