@@ -3,7 +3,7 @@ To get the flag, you must break RSA not once, but three times!
 
 # Provided
 - [public-key.txt](.prov/209-public-key.txt)
-- [encrypt.txt](.prov/209-encrypt.txt)
+- [encrypt.txt](.prov/209-encrypt.py)
 
 # Ressources
 - [RSA](https://en.wikipedia.org/wiki/RSA_(cryptosystem))
